@@ -1,1 +1,1 @@
-# nodejs-school-test
+# «Школа Node.JS — тестовое задание»

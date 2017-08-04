@@ -100,8 +100,6 @@
       const url = this.submitButton.form.action;
       const xhr = new XMLHttpRequest();
 
-      console.log('send');
-
       xhr.onload = (response) => {
         const json = JSON.parse(response.target.responseText);
 
@@ -134,7 +132,6 @@
           break;
         }
         case 'progress': {
-          console.log('progress');
           const ms = response.timeout;
 
           this.resultContainer.classList.add('progress');
